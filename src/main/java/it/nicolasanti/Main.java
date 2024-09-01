@@ -1,5 +1,6 @@
 import static java.lang.StringTemplate.STR;
 
+
 void main(String[] args) {
     System.out.print("Hello and welcome!");
 
