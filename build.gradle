@@ -1,20 +1,42 @@
 plugins {
     id 'java'
+    id 'application'
 }
-
-group = 'it.nicolasanti'
-version = '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
 }
 
+group = 'it.nicolasanti'
+version = '1.0-SNAPSHOT'
+
+application {
+    mainClass = 'Main'
+}
+
 dependencies {
     implementation 'org.hamcrest:hamcrest:2.2'
 
+    //testImplementation platform('org.junit:junit-bom:5.10.0')
+    //testImplementation 'org.junit.jupiter:junit-jupiter'
 
-    testImplementation platform('org.junit:junit-bom:5.10.0')
-    testImplementation 'org.junit.jupiter:junit-jupiter'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+
+}
+
+test {
+    useJUnitPlatform()
+    testLogging {
+        events "passed", "skipped", "failed", "standardOut", "standardError"
+        
+        // Aggiungi questa parte per mostrare le classi di test
+        beforeSuite { descriptor ->
+            if (descriptor.getClassName() != null) {
+                logger.lifecycle("Running : ${descriptor.getClassName()}")
+            }
+        }
+    }
 }
 
 java {
@@ -24,6 +46,27 @@ java {
 }
 
 
-test {
-    useJUnitPlatform()
+
+
+
+tasks.withType(JavaCompile).configureEach {
+    options.compilerArgs += '--enable-preview'
 }
+    
+tasks.withType(Test).configureEach {
+    jvmArgs += '--enable-preview'
+}
+    
+tasks.withType(JavaExec).configureEach {
+    jvmArgs += '--enable-preview'
+}
+
+sourceSets {
+        test {
+            java {
+                srcDirs = ['src/test/java']
+        }
+    }
+}
+
+
