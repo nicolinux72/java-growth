@@ -144,7 +144,12 @@ Ecco l'elenco completo delle versioni principali di JDK, dal JDK 1.0 fino al JDK
 - **JEP 446**: Scoped Values (Preview)
 - **JEP 453**: Structured Concurrency (Preview)
 
-### JDK 22 (Previsto per 2024)
-- **JEPs ancora in fase di definizione**: JDK 22 dovrebbe continuare a migliorare le funzionalità introdotte nelle versioni precedenti.
+### [JDK 22 (2024)](https://openjdk.org/projects/jdk/22/)
+- **[JEP 456](https://openjdk.org/jeps/456)**: Unnamed Variables & Patterns
 
-Questo elenco offre una panoramica delle versioni principali del JDK e delle innovazioni chiave che hanno contribuito all'evoluzione della piattaforma Java.
+Articles: [HappyCoders](https://www.happycoders.eu/java/java-22-features/) 
+
+
+## Other references:
+- [Oracle](https://www.oracle.com/java/technologies/javase/22all-relnotes.html)
+
