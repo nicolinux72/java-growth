@@ -40,3 +40,7 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+### Jekyll
+docs/_site
+docs/.jekyll-cache

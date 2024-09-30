@@ -1,0 +1,296 @@
+JDK:
+  - version: 1.0
+    year: 1996
+    LTS: false
+    features:
+      - description: Introduction of applet and basic API
+        JEP: null
+
+  - version: 1.1
+    year: 1997
+    LTS: false
+    features:
+      - description: Event Delegation Model
+        JEP: null
+      - description: Inner Classes
+        JEP: null
+      - description: Java Database Connectivity
+        JEP: null
+
+  - version: 1.2
+    year: 1998
+    alias: Java 2
+    LTS: false
+    features:
+      - description: Graphical interfaces libraries
+        JEP: null
+      - description: Collections Framework
+        JEP: null
+      - description: Just-In-Time Compiler
+        JEP: null
+
+  - version: 1.3
+    year: 2000
+    LTS: false
+    features:
+      - description: HotSpot JVM
+        JEP: null
+      - description: JavaSound
+        JEP: null
+      - description: RMI over IIOP
+        JEP: null
+
+  - version: 1.4
+    year: 2002
+    LTS: false
+    features:
+      - description: Keyword  `assert`
+        JEP: null
+      - description: Java NIO
+        JEP: null
+      - description: XML Parsing
+        JEP: null
+      - description: Logging API
+        JEP: null
+
+  - version: 5.0
+    year: 2004
+    alias: Java 5
+    LTS: false
+    features:
+      - description: Generics
+        JEP: null
+      - description: Enhanced for Loop
+        JEP: null
+      - description: Autoboxing/Unboxing
+        JEP: null
+      - description: Annotations
+        JEP: null
+      - description: Enums
+        JEP: null
+
+  - version: 6
+    year: 2006
+    LTS: false
+    features:
+      - description: Scripting Language Support
+        JEP: null
+      - description: Improvements in Web Services
+        JEP: null
+      - description: Compiler API
+        JEP: null
+
+  - version: 7
+    year: 2011
+    LTS: false
+    features:
+      - description: Project Coin
+        JEP: null
+      - description: Fork/Join Framework
+        JEP: null
+      - description: NIO.2
+        JEP: null
+
+  - version: 8
+    year: 2014
+    LTS: true
+    features:
+      - description: Lambda Expressions
+        JEP: 153
+      - description: Retire the Permanent Generation
+        JEP: 176
+      - description: Annotations on Java Types
+        JEP: 104
+      - description: Compact Profiles
+        JEP: 118
+
+  - version: 9
+    year: 2017
+    LTS: false
+    features:
+      - description: New Version-String Scheme
+        JEP: 223
+      - description: Module System (Project Jigsaw)
+        JEP: 261
+      - description: Milling Project Coin
+        JEP: 213
+      - description: Multi-Release JAR Files
+        JEP: 238
+
+  - version: 10
+    year: 2018
+    LTS: false
+    features:
+      - description: Local-Variable Type Inference
+        JEP: 286
+      - description: Parallel Full GC for G1
+        JEP: 307
+      - description: Garbage-Collector Interface
+        JEP: 304
+      - description: Root Certificates
+        JEP: 319
+
+  - version: 11
+    year: 2018
+    LTS: true
+    features:
+      - description: Dynamic Class-File Constants
+        JEP: 309
+      - description: "Epsilon: A No-Op Garbage Collector"
+        JEP: 318
+      - description: Remove the Java EE and CORBA Modules
+        JEP: 320
+      - description: "ZGC: A Scalable Low-Latency Garbage Collector"
+        JEP: 333
+
+  - version: 12
+    year: 2019
+    LTS: false
+    features:
+      - description: "Shenandoah: A Low-Pause-Time Garbage Collector"
+        JEP: 189
+      - description: Switch Expressions (Preview)
+        JEP: 325
+      - description: Default CDS Archives
+        JEP: 341
+      - description: Abortable Mixed Collections for G1
+        JEP: 344
+
+  - version: 13
+    year: 2019
+    LTS: false
+    features:
+      - description: Text Blocks (Preview)
+        JEP: 355
+      - description: Dynamic CDS Archives
+        JEP: 350
+      - description: "ZGC: Uncommit Unused Memory"
+        JEP: 351
+      - description: Switch Expressions (Second Preview)
+        JEP: 354
+
+  - version: 14
+    year: 2020
+    LTS: false
+    features:
+      - description: Pattern Matching for instanceof (Preview)
+        JEP: 305
+      - description: Records (Preview)
+        JEP: 359
+      - description: ZGC on macOS
+        JEP: 364
+      - description: ZGC on Windows
+        JEP: 365
+
+  - version: 15
+    year: 2020
+    LTS: false
+    features:
+      - description: Edwards-Curve Digital Signature Algorithm (EdDSA)
+        JEP: 339
+      - description: Sealed Classes (Preview)
+        JEP: 360
+      - description: Hidden Classes
+        JEP: 371
+      - description: Remove the Nashorn JavaScript Engine
+        JEP: 372
+      - description: Text Blocks
+        JEP: 378  
+
+  - version: 16
+    year: 2021
+    LTS: false
+    features:
+      - description: Vector API (Incubator)
+        JEP: 338
+      - description: Records
+        JEP: 395
+      - description: Sealed Classes
+        JEP: 397
+      - description: Deprecate the Security Manager for Removal
+        JEP: 411
+
+  - version: 17
+    year: 2021
+    LTS: true
+    features:
+      - description: Enhanced Pseudo-Random Number Generators
+        JEP: 356
+      - description: New macOS Rendering Pipeline
+        JEP: 382
+      - description: Strongly Encapsulate JDK Internals
+        JEP: 403
+      - description: Sealed Classes
+        JEP: 409
+
+  - version: 18
+    year: 2022
+    LTS: false
+    features:
+      - description: UTF-8 by Default
+        JEP: 400
+      - description: Simple Web Server
+        JEP: 408
+      - description: Code Snippets in Java API Documentation
+        JEP: 413
+      - description: Reimplement Core Reflection with Method Handles
+        JEP: 416
+
+  - version: 19
+    year: 2022
+    LTS: false
+    features:
+      - description: Virtual Threads (Preview)
+        JEP: 425
+      - description: Linux/RISC-V Port
+        JEP: 422
+      - description: Pattern Matching for switch (Third Preview)
+        JEP: 427
+      - description: Scoped Values (Incubator)
+        JEP: 429
+
+  - version: 20
+    year: 2023
+    LTS: false
+    features:
+      - description: Record Patterns (Second Preview)
+        JEP: 432
+      - description: Virtual Threads (Second Preview)
+        JEP: 436
+      - description: Vector API (Fifth Incubator)
+        JEP: 438
+      - description: Pattern Matching for switch (Fourth Preview)
+        JEP: 433
+
+  - version: 21
+    year: 2023
+    LTS: true
+    features:
+      - description: Sequenced Collections
+        JEP: 431
+      - description: Generational ZGC
+        JEP: 439
+      - description: Virtual Threads
+        JEP: 444
+      - description: Scoped Values (Preview)
+        JEP: 446
+      - description: Structured Concurrency (Preview)
+        JEP: 453
+
+  - version: 22
+    year: 2024
+    LTS: false
+    features:
+      - description: Unnamed Variables & Patterns
+        JEP: 456
+      - description: String Templates (Second Preview)
+        JEP: 459
+      - description: Statements before super(…) (Preview)
+        JEP: 447
+      - description: Stream Gatherers (Preview)
+        JEP: 461    
+      - JEP: 463
+        description: Implicitly Declared Classes and Instance Main Methods (Second Preview)
+      - JEP: 458
+        description: Launch Multi-File Source-Code Programs
+
