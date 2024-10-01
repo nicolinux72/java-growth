@@ -28,7 +28,7 @@ permalink: /features/
                 {% assign related_posts = site.posts | where_exp: "item", "item.JEPs contains feature.JEP" %}
                 {% if related_posts.size > 0 %}
                     {% for post in related_posts %}
-                        <a href="{{post.url}}">-<i>{{post.title}}</i></a>
+                        <a href="{{post.url | relative_url }}">-<i>{{post.title}}</i></a>
                     {% endfor %} 
                 {% endif %}   
             </li>
